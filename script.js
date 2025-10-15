@@ -152,7 +152,7 @@ function handleQuoteFormSubmit(event) {
     const data = Object.fromEntries(formData.entries());
     
     // Format the message for WhatsApp
-    let message = `New Quote Request from Majek Facilities & Logistics Website:\n\n`;
+    let message = `New Quote Request from Emma247 Logistics Website:\n\n`;
     message += `Name: ${data.name}\n`;
     message += `Email: ${data.email}\n`;
     message += `WhatsApp: ${data.whatsapp}\n`;
@@ -218,4 +218,5 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
 });
